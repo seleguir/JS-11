@@ -1,0 +1,44 @@
+<!-- Ahorcado -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Ahorcado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Juego del Ahorcado</h1>
+        <div id="display-palabra" class="display-palabra">_ _ _ _ _</div>
+        <br>
+        <div class="input">
+            <input type="text" id="inputLetras" maxlength="1" placeholder="Ingresa una letra">
+            <button id="boton">Adivinar</button>
+            <button id="guardarScore">Guardar Puntuación</button> 
+        </div>
+        <div id="mensaje" class="mensajeClase"></div>
+        <div id="errores" class="erroresClase">Errores (6 max): 0</div>
+        <div id="letrasIncorrectas" class="letrasIncorrectas">Letras incorrectas: </div>
+        
+        <!-- Tabla para mostrar puntuaciones -->
+        <div class="tabla-scores"> 
+            <h2>Puntuaciones Altas</h2>
+            <table id="highScoresList">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Puntos</th>
+                        <th>Tiempo</th>
+                        <th>Fecha</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Puntajes -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

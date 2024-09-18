@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.display-palabra {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.input {
+    margin-bottom: 20px;
+}
+
+input {
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.mensaje {
+    font-size: 1.2rem;
+    color: red;
+}
+
+.errores, .letrasIncorrectas {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.tabla-scores {
+    margin: 0px auto; 
+}
